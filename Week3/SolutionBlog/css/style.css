@@ -1,0 +1,420 @@
+/* 
+   RESET
+
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*RESET END*/
+
+body
+{
+  background-image:url('../images/web-bg.gif');
+  text-align: center;
+}
+
+h1
+{
+	background-color: blue;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2
+{
+	background-color: red;
+	color: white;
+	font-size: 30px;
+}
+
+h3
+{
+	background-color: red;
+	color: white;
+	font-size: 20px;
+}
+
+h4
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#content
+{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	width: 90%;
+}
+
+#header
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#sidebarleft
+{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.profilepic
+{
+	height: 190px;
+	width:49%;
+	float: left;
+	background-image:url('../images/profilepic.gif');
+	background-position: center center;
+}
+
+.navbar
+{
+	float: right;
+	clear: right;
+	width:49%;
+}
+
+.navbar .nav li
+{
+	width: 100%;
+	background-color: #d4d0c7;
+	margin: 5px 0;
+	border: 2px outset buttonface;
+}
+
+.navbar .nav li a
+{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.navbar .nav li #search
+{
+	width: 90%;
+	text-align: center;
+}
+
+#contentwrap
+{
+	margin: 0 auto;
+	margin-top: 230px;
+	margin-bottom: 20px;
+	width: 90%;
+}
+
+.bulletin
+{
+	height: 300px;
+	border: solid 2px black;
+	margin-bottom: 10px;
+	background-color: white;
+	text-align: left;
+	overflow:scroll;
+}
+
+.newspost
+{
+	padding: 10px 10px;
+	display: block;
+}
+
+.user
+{
+	color: blue;
+	font-style:italic;
+}
+
+.posted
+{
+	font-style:italic;
+	margin-bottom: 5px;
+}
+
+.vote
+{
+	width: 40px;
+	height: 15px;
+	text-align: center;
+	background-color: #d4d0c7;
+	margin-top: -5px;
+	margin-left: 10px;
+	display: block;
+	border: 2px outset buttonface;
+	font-size: 15px;
+}
+
+#bulletintitle
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.error
+{
+	color: red;
+	margin-bottom: 5px;
+}
+
+.sendwrap
+{
+	margin-top:10px;
+}
+
+.sendwrap #topic
+{
+	width: 100%;
+	text-align: center;
+}
+
+.sendwrap #article
+{
+	width: 100%;
+	text-align: center;
+}
+
+.sendwrap #send
+{
+	width: 100px;
+	background-color: #d4d0c7;
+	margin-bottom: 10px;
+}
+
+label{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1040px)
+{
+
+body
+{
+  text-align: left;
+}
+
+h1, h2, h3
+{
+	padding-left: 10px;
+}
+
+#content
+{
+	width: 1000px;
+	padding: 20px 20px;
+	height: 630px;
+}
+
+#header
+{
+	width: 100%;
+	margin: 0 auto;
+}
+	
+#sidebarleft
+{
+	margin: 10px 0;
+	width: 200px;
+	float: left;
+}
+
+.profilepic
+{
+	height: 190px;
+	width:190px;
+	float: none;
+	background-image:url('../images/profilepic.gif');
+}
+
+.navbar
+{
+	margin-top: 20px;
+	float: none;
+	clear: none;
+	width:187px;
+	text-align: left;
+}
+
+.navbar .nav li a
+{
+	margin-left: 10px;
+}
+
+.navbar .nav li #search
+{
+	width: 180px;
+}
+
+#contentwrap
+{
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 540px;
+	float: left;
+	background-color: white;
+}
+
+.bulletin
+{
+	height: 450px;
+}
+
+.sendwrap #topic, .sendwrap #article
+{
+	text-align: left;
+	width: 535px;
+}
+
+.sendwrap #article{
+	height: 400px;
+}
+
+#sidebarright
+{
+	margin: 20px 0;
+	width: 200px;
+	height: 473px;
+	float: right;
+	clear: right;
+}
+
+#adone
+{
+	background-image:url('../images/adgif4.gif');
+	background-repeat: no-repeat;
+	background-size: 200px 80px;
+	height: 100px;
+	width: 200px;
+	background-position: left center;
+}
+
+#adtwo
+{
+	background-image:url('../images/adgif1.gif');
+	height: 100px;
+	width: 200px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#adthree
+{
+	background-image:url('../images/adgif2.gif');
+	height: 50px;
+	width: 150px;
+	margin-left: 20px;
+}
+
+#adfour
+{
+	background-image:url('../images/adgif3.gif');
+	background-repeat: no-repeat;
+	background-size: 197px 80px;
+	margin-left: 3px;
+	height: 100px;
+	width: 200px;
+	background-position: left center;
+}
+
+#adfive
+{
+	background-image:url('../images/adgif5.gif');
+	background-repeat: no-repeat;
+	background-size: 200px 80px;
+	height: 100px;
+	width: 200px;
+	background-position: left center;
+}
+
+/*login*/
+
+#loginbox
+{
+	text-align: center;
+	margin: 100px auto;
+}
+
+#register
+{
+	display: block;
+	background-color: #d4d0c7;
+	text-align: center;
+	margin: 0 auto;
+	border: 2px outset buttonface;
+	color: #000000;
+	text-decoration: none;
+	width: 50%;
+	padding: 20px 10px;
+}
+
+/*postmakeup*/
+
+.topicpost{
+	font-size: 20px;
+	padding-left: 10px;
+	color:blue;
+}
+
+.auteurpost
+{
+	padding-left: 10px;
+	color:black;
+	font-size: 20px;
+}
+
+.articlepost
+{
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
